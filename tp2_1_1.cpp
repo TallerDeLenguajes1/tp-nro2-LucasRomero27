@@ -3,17 +3,18 @@
 
 #define N 4
 #define M 5
-
-main (void){
+int main (void){
 	int f,c;
 	double mt[N][M];
 
 	for(f=0;f<N;f++)
 	{
-		for(f=0;f<N;f++)
+		for(c=0;c<M;c++)
 		{
-			cprintf("%lf   ",mt[f][c]);
+			mt[f][c]=rand();
+			printf("%lf     ",mt[f][c]);
 		}
-		cprintf("\n");
+		printf("\n");
 	}
+	return 0;
 }
