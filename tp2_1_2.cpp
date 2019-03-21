@@ -15,6 +15,7 @@ int main (void){
 			mt[f][c]=rand()/500;
 			punt[f][c]=&mt[f][c];
 			printf("%lf      ",*(punt[f][c]));
+			punt[f][c]++;
 		}
 		printf("\n");
 	}
