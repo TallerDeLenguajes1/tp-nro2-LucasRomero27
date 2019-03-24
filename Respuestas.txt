@@ -1,0 +1,11 @@
+2f) Cuando realizo el git checkout master, vuelvo a la linea principal, por lo que dejo
+de visualizar el branch Opcion_2, donde se encuentra tp2_1_2.cpp. Entonces no puedo
+ver el archivo, pero si vuelvo al branch Opcion_2, veo todos los archivos master más
+los archivos incluidos en esa rama.
+
+2h) El comando gitk --all muestra todos los cambios y avances realizados, por lo que no hay
+diferencia entre usar ese comando estando en una rama Opcion_2, a estar en la linea master.
+
+2j) La diferencia es que se unieron, ahora todo se encuentra en la misma linea
+y notamos que Opcion_2 está en la linea master, en vez de en la otra rama como se
+encontraba anteriormente.
